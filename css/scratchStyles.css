@@ -1,0 +1,91 @@
+/* Alice Dodge
+IS 201 Berry - The best section
+Apr 6 2023*/
+
+/* Experience Section Formating */
+.expDateFormat{
+    color: #666;
+    font-size: 13px;
+}
+/* Body Text Style */
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+/* Header Style */
+h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    color:#666;
+
+}
+/* Lists aren't Bolded */
+li{
+    font-size: 14px;
+    font-family: sans-serif;
+
+    font-weight: normal;
+    color: #000;
+
+}
+/* Ling A tag style: light green until clicked on */
+a{
+    color:#666;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+   
+}
+a:visited{
+    color: #666;
+    
+}
+/* Bolding Resume List Headings */
+.ResumeListHeading{
+    font-weight: bold;
+    font-style: normal;
+    color:#666;
+
+}
+
+/* Text Manipulation commands */
+.underline{
+    text-decoration: underline;
+}
+.bold{font-weight: bold;}
+.justify{text-align: justify;}
+.italic{font-style: italic;}
+/* background image - homepage */
+.homebackground{
+    background-image: url("../BackgroundImage.JPG");
+    background-size:cover;
+}
+/* "This paragraph is for demonstration purposes" */
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    border: 1px solid red;
+}
+.box2{
+    padding: 5px;
+}
+.box3{
+    margin: 50px;
+}
+
+/* div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } */
+
+  .homebackground{
+    background-color: beige;
+  }
